@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
+        <module name="eureke-server" />
         <module name="service-hi" />
+        <module name="service-ribbon" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,7 +19,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
+      <module name="eureke-server" options="-parameters" />
       <module name="service-hi" options="-parameters" />
+      <module name="service-ribbon" options="-parameters" />
       <module name="spring-cloud-demo" options="-parameters" />
     </option>
   </component>
