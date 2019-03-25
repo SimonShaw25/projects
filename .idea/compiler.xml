@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-server" />
         <module name="eureke-server" />
+        <module name="service-feign" />
         <module name="service-hi" />
         <module name="service-ribbon" />
       </profile>
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="eureka-server" options="-parameters" />
       <module name="eureke-server" options="-parameters" />
+      <module name="service-feign" options="-parameters" />
       <module name="service-hi" options="-parameters" />
       <module name="service-ribbon" options="-parameters" />
       <module name="spring-cloud-demo" options="-parameters" />
