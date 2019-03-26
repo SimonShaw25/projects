@@ -1,0 +1,23 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: service-ribbon
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+SERVICE-HI:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+ribbon:
+  ConnectionTimeout: 30000
+  ReadTimeout: 30000
+  OkToRetryOnAllOperatotions: true
+  MaxAutoRetriesNextServer: 99
+  MaxAutoRetries: 99
+  ServerListRefreshInterval: 5000

@@ -314,7 +314,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553609599744" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553609601401" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/service-zuul/src/main/java/com/xzc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/service-feign/pom.xml" />
     <property name="project.structure.last.edited" value="Modules" />
